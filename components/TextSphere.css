@@ -1,0 +1,6 @@
+.tagcloud--item {
+    border-width: 1px;
+    padding: 0.3em 1.5em;
+    border-radius: 1em;
+    border-color: rgba(198,123,220, 1);
+}
