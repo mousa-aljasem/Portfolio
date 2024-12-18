@@ -5,11 +5,18 @@ import "./TextSphere.css";
 type Props = {};
 
 function getWindowDimensions() {
-  const { innerWidth: width, innerHeight: height } = window;
+  if (typeof window !== 'undefined') {
+    const { innerWidth: width, innerHeight: height } = window;
+    return {
+      width,
+      height,
+    }
+  }
+  
   return {
-    width,
-    height,
-  };
+    width: 0,
+    height: 0
+  }
 }
 
 export default function TextSphere({}: Props) {

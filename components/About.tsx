@@ -65,9 +65,9 @@ export default function About({}: Props) {
           have also graduated with a Bachelors in Computer Science and expanded
           my knowledge in all things Computer Science. I am incredibly motivated
           and can pick things up super quickly. I have worked in various teams
-          both as a team player and leader. Click the button below to view my
-          CV!
+          both as a team player and leader.
         </p>
+        <div></div>
         <a
           href=""
           className="px-5 py-2 mt-4 border rounded border-primary-color text-primary-color"

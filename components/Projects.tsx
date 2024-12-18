@@ -26,6 +26,22 @@ export default function Projects({}: Props) {
       description: "A website showing a full E-Commerce solution etc etc",
       href: "https://github.com/mousa-aljasem",
     },
+    {
+      id: 3,
+      title: "E-Commerce",
+      image: mousa,
+      alt: "Picture of the e-commerse website",
+      description: "A website showing a full E-Commerce solution etc etc",
+      href: "https://github.com/mousa-aljasem",
+    },
+    {
+      id: 4,
+      title: "E-Commerce",
+      image: mousa,
+      alt: "Picture of the e-commerse website",
+      description: "A website showing a full E-Commerce solution etc etc",
+      href: "https://github.com/mousa-aljasem",
+    },
   ];
   return (
     <motion.div

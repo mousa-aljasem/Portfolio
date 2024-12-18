@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import ExperienceCard from "./ExperienceCard";
+import ExperienceCard_Osborne from "./ExperienceCard_Osborne";
+import ExperienceCard_Jet2 from "./ExperienceCard_Jet2";
 
 type Props = {};
 
@@ -26,7 +27,8 @@ export default function WorkExperience({}: Props) {
         </h3>
         {/* <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory"> */}
         <div className="flex space-x-5 mx-auto">
-          <ExperienceCard />
+          <ExperienceCard_Osborne />
+          <ExperienceCard_Jet2 />
         </div>
       </div>
     </motion.div>
