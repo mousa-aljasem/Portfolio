@@ -44,7 +44,7 @@ export default function ExperienceCard_Jet2({}: Props) {
       </motion.div>
       <div className="px-0 md:px-10">
         <h4 className="text-4xl font-light">IT Graduate</h4>
-        <p className="font-bold text-2xl mt-1">2024 - 2025</p>
+        <p className="font-bold text-2xl mt-1">2024 - Current</p>
         <div className="flex space-x-2 my-2 text-3xl">
           <TbSql />
           <TbBrandCSharp />

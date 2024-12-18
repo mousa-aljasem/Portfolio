@@ -69,7 +69,7 @@ export default function About({}: Props) {
         </p>
         <div></div>
         <a
-          href=""
+          href="CV.pdf"
           className="px-5 py-2 mt-4 border rounded border-primary-color text-primary-color"
           target="_blank"
         >
